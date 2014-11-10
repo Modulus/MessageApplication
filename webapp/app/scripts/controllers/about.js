@@ -5,9 +5,9 @@
  * @name webappApp.controller:AboutCtrl
  * @description
  * # AboutCtrl
- * Controller of the webappApp
+ * Controller of the webApp
  */
-angular.module('webappApp')
+angular.module('webApp')
   .controller('AboutCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',

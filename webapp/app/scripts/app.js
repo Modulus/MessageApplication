@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name webappApp
+ * @name webApp
  * @description
  * # webappApp
  *
  * Main module of the application.
  */
 angular
-  .module('webappApp', [
+  .module('webApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
@@ -26,6 +26,10 @@ angular
       .when('/about', {
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
+      }).
+      when('/user', {
+        templateUlr: '/views/createUser',
+        controller: 'UserController'
       })
       .otherwise({
         redirectTo: '/'
