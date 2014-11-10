@@ -28,4 +28,8 @@ describe('Controller: UserController', function () {
     expect(scope.getUser).toBeDefined();
   });
 
+  it('Should have empty object on fresh instance', function(){
+    expect(scope.user).toEqual({})
+  });
+
 });

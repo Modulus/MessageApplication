@@ -28,8 +28,8 @@ angular
         controller: 'AboutCtrl'
       }).
       when('/user', {
-        templateUlr: '/views/createUser',
-        controller: 'UserController'
+        templateUrl: 'views/createUser.html',
+        controller: 'AboutCtrl'
       })
       .otherwise({
         redirectTo: '/'
