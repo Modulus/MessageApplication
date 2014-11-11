@@ -9,5 +9,9 @@ bower_components
 
 #python stuffs
 venv
-.pyc
+*.pyc
 __pycache__
+
+
+#misc stuffs
+*.log
