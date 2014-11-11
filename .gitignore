@@ -6,3 +6,8 @@
 #yo stuffs
 node_modules
 bower_components
+
+#python stuffs
+venv
+.pyc
+__pycache__
