@@ -1,7 +1,6 @@
 from unittest import TestCase
 from mongoengine import ValidationError
-from app.models.Message import Message
-from app.models.User import User
+from models.Message import Message
 
 __author__ = 'johska'
 
