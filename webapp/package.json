@@ -31,7 +31,6 @@
     "karma-junit-reporter" : "~0.2",
     "load-grunt-tasks": "^0.4.0",
     "time-grunt": "^0.3.1",
-    "grunt-cli": "~0.1.13"
   },
   "engines": {
     "node": ">=0.10.0"
