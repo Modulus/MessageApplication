@@ -1,5 +1,5 @@
 from mongoengine import Document, StringField, ListField, EmbeddedDocumentField
-from app.models.User import User
+from models.User import User
 
 __author__ = 'johska'
 
