@@ -7,6 +7,13 @@ module.exports = function(config) {
   'use strict';
 
   config.set({
+    reporters: ['progress', 'junit'],
+
+    junitReporter : {
+      outputFile: 'test-results.xml',
+      suite: ''
+    },
+
     // enable / disable watching file and executing tests whenever any file changes
     autoWatch: true,
 
