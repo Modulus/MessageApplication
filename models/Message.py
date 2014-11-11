@@ -9,7 +9,7 @@ class Message(Document):
         'collection': 'messages'
     }
     header = StringField(required=False, max_length=128)
-    mesage = StringField(required=True, max_length=512, min_length=1)
+    message = StringField(required=True, max_length=512, min_length=1)
     receivers = ListField(EmbeddedDocumentField(document_type='User', required=False))
     sender = StringField(required=True)
 
